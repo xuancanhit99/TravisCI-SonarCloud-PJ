@@ -1,6 +1,12 @@
 plugins {
     id("java")
-    id ("org.sonarqube") version "3.3"
+    id("org.sonarqube") version "4.4.1.3373"
+}
+
+sonar {
+    properties {
+        property("sonar.projectKey", "xuancanhit99_TravisCI-SonarCloud-PJ")
+    }
 }
 
 group = "org.example"
