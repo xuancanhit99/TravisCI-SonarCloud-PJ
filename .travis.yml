@@ -17,7 +17,7 @@ addons:
 
 script:
   - ./gradlew build
-  - ./gradlew sonarqube
+#  - ./gradlew sonarqube
 # other script steps might be done before running the actual analysis
   - sonar-scanner
 
